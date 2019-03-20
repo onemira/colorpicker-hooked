@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Colorpicker Hooked
 
 <img src ="./src/images/capture.gif">
@@ -10,6 +9,3 @@ The objectives of this project was as following.
 - Dynamically Update the appearance of DOM elements.
 
 Let's pick your own color and check its HSL!
-=======
-
->>>>>>> b7e408f2814afdc689f87ddc538050d54d1bc569
