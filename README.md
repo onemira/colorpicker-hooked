@@ -1,6 +1,6 @@
 # Colorpicker Hooked
 
-<img src ="./src/images/capture.gif>
+<img src ="./src/images/capture.gif">
 
 This website was a fun project with full of colors and simple codes.
 The objectives of this project was as following.
