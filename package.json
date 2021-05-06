@@ -22,7 +22,7 @@
     "stylelint-config-standard": "^18.2.0"
   },
   "dependencies": {
-    "json": "^9.0.6",
+    "json": "^10.0.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-scripts": "^2.1.5"
