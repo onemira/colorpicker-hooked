@@ -9,7 +9,9 @@
     "deploy": "netlify deploy --prod --dir=build",
     "postdeploy": "echo 'Your site was deployed to https://colorpicker-hooked-onemira.netlify.com'",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "browserslist": [
     ">0.2%",
@@ -22,9 +24,11 @@
     "stylelint-config-standard": "^18.2.0"
   },
   "dependencies": {
-    "json": "^10.0.0",
+    "json": "^11.0.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "^2.1.5"
-  }
+    "react-scripts": "^5.0.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
