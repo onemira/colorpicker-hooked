@@ -3,7 +3,7 @@
 }
 
 html {
-  height: 100%;
+  height: 100vh;
 }
 
 body {
@@ -12,11 +12,10 @@ body {
   align-items: center;
   flex-direction: column;
   margin: 0;
-  min-height: 100%;
-  margin: 1rem;
+  height: 100%;
 }
 
-.main {
+.app {
   padding: 2rem;
   border: double 5px rgb(49, 49, 9);
   border-radius: 0.5rem;
@@ -31,42 +30,49 @@ body {
 }
 
 .title {
-  font-size: 2.5rem;
-  text-align: center;
   text-shadow: 3px 3px whitesmoke;
   background-color: rgba(184, 187, 185, 0.3);
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
-.colorEx {
+.color-box {
   height: 3rem;
   width: 3rem;
   border: solid 5px rgb(241, 241, 216);
 }
 
-.color-box-parent {
-  background-image: url('./images/box.png');
-  background-size: contain;
-  width: 3rem;
-}
-
-.colorArea {
+.color-area {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
 }
 
-.colorHistory {
-  line-height: 2rem;
-  list-style: inside url('../src/images/heart.png');
+.color-history {
+  padding-left: 0;
+  list-style: none;
+}
+
+.color-data {
+  list-style: none;
+  background-image: url('../src/resources/heart.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 30px;
   background-color: whitesmoke;
-  padding: 1rem;
+  margin: 0;
+  padding: 18px 0 18px 33px;
 }
 
-.sliderBox {
+.slider {
   display: flex;
   align-items: center;
-  flex-direction: column;
-  word-spacing: 0.6rem;
+  margin: 1rem;
+}
+
+.button-list {
+  display: flex;
+}
+
+.button {
+  margin: 0.2rem;
 }
